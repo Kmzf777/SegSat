@@ -99,10 +99,34 @@ header button:hover {
 
 
 
+.parallax {
+    width: 100%;
+    overflow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parallax img {
+    width: 100%;
+}
 
 
+.parallax button {
+    position: absolute;
+    background: transparent;
+    border: 2px solid #00AFEF;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 50vh;
+    transition: 0.3s ease all;
+}
 
-
-
-
+.parallax button:hover {
+    background: #00AFEF;
+    cursor: pointer;
+}
 

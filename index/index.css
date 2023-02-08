@@ -21,7 +21,7 @@ body {
     justify-content: center;
     flex-direction: column;
     overflow-x: hidden;
-
+    height: max-content;
     list-style: none;
     box-sizing: border-box;
 
@@ -36,7 +36,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
+    z-index: 999;
     padding: 10px 0px;
 }
 
@@ -92,28 +92,75 @@ header button:hover {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-.parallax {
+.cena {
     width: 100%;
-    overflow: none;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.parallax img {
+.bg img {
+    width: 150%;
+    opacity: 0.1;
+}
+
+.fundo_cell {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fundo_cell img {
     width: 100%;
 }
 
+.celular {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-.parallax button {
+.celular img {
+    width: 100%;
+}
+
+.titulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.titulo img {
+    width: 100%;
+}
+
+.subtitulo {
+    position: absolute;
+    top: 50%;
+    z-index: 799;
+    
+}
+
+.subtitulo h2 {
+    width: 450px;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+}
+
+.entrar_ctt {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.entrar_ctt  button {
+    position: absolute;
+    width: 300px;
     position: absolute;
     background: transparent;
     border: 2px solid #00AFEF;
@@ -121,12 +168,50 @@ header button:hover {
     border-radius: 15px;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    margin-top: 50vh;
     transition: 0.3s ease all;
+    z-index: 799;
 }
 
-.parallax button:hover {
+.entrar_ctt button:hover {
     background: #00AFEF;
     cursor: pointer;
 }
 
+.fundo_caminhao {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fundo_caminhao img {
+    width: 100%;
+}
+
+.caminhao {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.caminhao img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.sec2 {
+    background: rgb(6, 36, 48);
+    z-index: 899;
+    margin-top: -20px;
+    box-shadow: 0px -10px 60px rgba(0, 68, 92, 0.559);
+    padding: 50px 50px;
+    height: 100%;
+    color: white;
+}

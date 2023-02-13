@@ -57,13 +57,20 @@ header button {
     border-radius: 10px;
 }
 
+.login-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+
 .login-box h2 {
-    margin: 0 0 30px;
     padding: 0;
     color: #fff;
     text-align: left;
     font-weight: 400;
-
+    cursor: default;
 }
 
 .underline {
@@ -247,3 +254,4 @@ header button {
     letter-spacing: 0.2px;
     cursor: pointer;
 }
+

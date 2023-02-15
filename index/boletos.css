@@ -141,7 +141,146 @@ header button:hover {
     height: 55vh;
     background: #001b2c;
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
+    overflow-y: auto;
 }
 
-.
+.boletos-box::-webkit-scrollbar {
+    
+    width: 5px;
+    
+    
+}
+  
+.boletos-box::-webkit-scrollbar-track {
+
+    
+  }
+.boletos-box::-webkit-scrollbar-thumb {
+    background-color: #00AFEF;
+    border-radius: 15px;
+    
+    
+    
+  }
+
+
+.info-boletos {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.info-boletos div {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 13px;
+    text-align: center;
+}
+
+.boleto-icon {
+    width: 8%;
+}
+
+.boleto-data {
+    width: 23%;
+}
+
+.boleto-vencimento {
+    width: 23%;
+}
+
+.boleto-status {
+    width: 25%;
+}
+
+.boleto-download {
+    width: 20%;
+}
+
+.boleto  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #002338;
+    height: 45px;
+}
+
+.boleto div {
+    color: rgba(255, 255, 255, 0.795);
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-symbol{
+    width: 8%;
+    border-right: 1px solid #002338;
+}
+
+.pdf-symbol i {
+    font-size: 16px;
+    border-right: 1px solid #002338;
+}
+
+.data-pdf {
+    width: 23%;
+    border-right: 1px solid #002338;
+}
+
+.vencimento-pdf {
+    width: 23%;
+    border-right: 1px solid #002338;
+}
+
+.status {
+    width: 25%;
+    border-right: 1px solid #002338;
+}
+
+.download-pdf {
+    width: 20%;
+    border-right: 1px solid transparent;
+}
+
+.download-pdf button {
+    background: transparent;
+    width: 60%;
+    border-radius: 8px;
+    border: 1px solid #00AFEF;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    transition: 0.3s ease all;
+}
+
+.download-pdf h2 {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 16px;
+    width: 70%;
+}
+
+.download-pdf button span {
+    background: #00AFEF;
+    width: 30%;
+    color: rgba(255, 255, 255, 0.795);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 100%;
+    font-size: 16px;
+}
+
+.download-pdf button:hover {
+    background: #00AFEF;
+    box-shadow: 0 0 1px #00AFEF,
+    0 0 2px #00AFEF,
+    0 0 6px #00AFEF,
+    0 0 12px #00AFEF;
+    cursor: pointer;
+    letter-spacing: 1px;
+}

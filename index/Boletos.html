@@ -9,6 +9,7 @@
      content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
     <script src="https://kit.fontawesome.com/3f3417947e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="boletos.css">
+    <link rel="stylesheet" href="boletos-res.css">
     <link
     rel="stylesheet"
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -17,21 +18,37 @@
 </head>
 <body>
     <header>
-        <div class="header_left">
-            <button>Quem Somos?</button>
-            <button>Contato</button>
-            <button>Nossos Serviços</button>
-        </div>
-        <div class="header_mid">
-            <button><img src="/images/segsat.png" alt=""></button>
-        </div>
-        <div class="header_right">
-            <div class="buttons_flex">
-                <button><i class="fa fa-user-o" aria-hidden="true"></i></button>
-                <button><i class="fa fa-instagram" aria-hidden="true"></i></button>
-                <button><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+        <nav class="header_pc">
+            <div class="header_left">
+                <button>Quem Somos?</button>
+                <button>Contato</button>
+                <button>Nossos Serviços</button>
             </div>
-        </div>
+            <div class="header_mid">
+                <button><img src="/images/segsat.png" alt=""></button>
+            </div>
+            <div class="header_right">
+                <div class="buttons_flex">
+                    <button><i class="fa fa-user-o" aria-hidden="true"></i></button>
+                    <button><i class="fa fa-instagram" aria-hidden="true"></i></button>
+                    <button><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="header_mobile">
+            <button><img src="/images/segsat.png" alt=""></button>
+            
+            <div class="menu">
+                <input type="checkbox" name="" id="hamburguer">
+                <label for="hamburguer" class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </label>
+            </div>
+        </nav>
+
     </header>
 
     <section class="boletos">

@@ -34,10 +34,18 @@ header {
     top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     z-index: 999;
     padding: 10px 0px;
+}
+
+.header_pc {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .header_left {
@@ -45,6 +53,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     
 }
 
@@ -53,6 +62,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 }
 
@@ -61,6 +71,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
     
 }
 
@@ -283,4 +294,56 @@ header button:hover {
     0 0 12px #00AFEF;
     cursor: pointer;
     letter-spacing: 1px;
+}
+
+
+
+
+/*MOBILE*/
+
+
+.header_mobile {
+    width: 95%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_mobile img {
+    width: 150px;
+    padding: 10px 0px;
+}
+
+#hamburguer {
+    display: none;
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.line1 {
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.795);
+}
+
+.line2 {
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.795);
+    margin-top: 8px;
+}
+
+.line3 {
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.795);
+    margin-top: 8px;
 }
